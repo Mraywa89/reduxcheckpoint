@@ -13,7 +13,6 @@ export const taskSlice = createSlice({
   },
 });
 
-// Action creators are generated for each case reducer function
 export const { addTask, deleteTask } = taskSlice.actions;
 
 export default taskSlice.reducer;
